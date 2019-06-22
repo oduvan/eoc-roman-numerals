@@ -1,0 +1,27 @@
+def checkio(a):
+    # your code here
+    return None
+
+
+if __name__ == '__main__':
+    print("Example:")
+    print(checkio(1))
+
+    # These "asserts" are used for self-checking and not for an auto-testing
+    assert checkio(1) == 'I'
+    assert checkio(10) == 'X'
+    assert checkio(50) == 'L'
+    assert checkio(100) == 'C'
+    assert checkio(500) == 'D'
+    assert checkio(1000) == 'M'
+    assert checkio(3999) == 'MMMCMXCIX'
+    assert checkio(99) == 'XCIX'
+    assert checkio(88) == 'LXXXVIII'
+    assert checkio(587) == 'DLXXXVII'
+    assert checkio(2387) == 'MMCCCLXXXVII'
+    assert checkio(3888) == 'MMMDCCCLXXXVIII'
+    assert checkio(76) == 'LXXVI'
+    assert checkio(6) == 'VI'
+    assert checkio(13) == 'XIII'
+    assert checkio(44) == 'XLIV'
+    print("Coding complete? Click 'Check' to earn cool rewards!")
